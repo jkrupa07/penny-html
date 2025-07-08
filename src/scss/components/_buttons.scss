@@ -1,0 +1,24 @@
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+}
+
+.btnA {
+    height: 55px;
+    padding-left: 46px;
+    padding-right: 46px;
+
+    &.bg-212121-btn {
+        background-color: $color-212121;
+        color: $white;
+
+        &:hover {
+            background-color: $color-212121;
+            color: $white;
+        }
+    }
+}
