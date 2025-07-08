@@ -2,6 +2,10 @@
     border: 1px solid rgba($color: $color-707070, $alpha: 0.2);
 }
 
+.border-E0E0E0 {
+    border: 1px solid $color-E0E0E0;
+}
+
 .social-icon-content {
     .social-icons {
         height: 48px;
@@ -9,7 +13,7 @@
         border: 1px solid $color-A5B6BE;
 
         img {
-            width: 20px;
+            width: 18px;
         }
     }
 }

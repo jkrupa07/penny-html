@@ -17443,6 +17443,14 @@ textarea {
   padding-left: 0px;
   padding-right: 0px;
 }
+.row.row8 {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.row.row8 > * {
+  padding-left: 8px;
+  padding-right: 8px;
+}
 
 .w-fit {
   width: fit-content;
@@ -17827,6 +17835,19 @@ button,
   visibility: hidden;
 }
 
+form input {
+  height: 58px;
+}
+form input.white-input {
+  background-color: #fff;
+  border: 1px solid rgba(224, 224, 224, 0.2);
+}
+form input.white-input::placeholder {
+  font-family: "articulat-cf", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .card-hover .img {
   transform: scale(1);
   transition: 0.3s all ease-in-out;
@@ -17839,13 +17860,17 @@ button,
   border: 1px solid rgba(112, 112, 112, 0.2);
 }
 
+.border-E0E0E0 {
+  border: 1px solid #E0E0E0;
+}
+
 .social-icon-content .social-icons {
   height: 48px;
   width: 48px;
   border: 1px solid #A5B6BE;
 }
 .social-icon-content .social-icons img {
-  width: 20px;
+  width: 18px;
 }
 
 .privacy-section .left-content ul {
