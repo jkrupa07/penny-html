@@ -21,4 +21,18 @@ button,
             color: $white;
         }
     }
+
+    &:hover {
+        .btn-arrow {
+            transform: translateX(6px);
+            opacity: 1;
+        }
+    }
+
+}
+
+.btn-arrow {
+    width: 20px;
+    transform: translateX(-20px);
+    opacity: 0;
 }
