@@ -1,0 +1,22 @@
+.privacy-section {
+
+    .left-content {
+        ul {
+            top: 215px;
+
+            li {
+                &.active {
+                    a {
+                        background-color: rgba($color: $color-212121, $alpha: 0.2);
+                    }
+                }
+            }
+        }
+    }
+
+    .single-content {
+        &:first-child {
+            padding-top: 0 !important;
+        }
+    }
+}
