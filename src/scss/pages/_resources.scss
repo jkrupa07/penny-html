@@ -1,0 +1,29 @@
+.resources-section {
+    .button-content {
+        .filter-button {
+            height: 32px;
+
+            &.active {
+                background-color: $color-212121!important;
+                color: $white!important;
+            }
+        }
+    }
+}
+
+.resources-open-section {
+
+    .left-content {
+        height: calc(100vh - 300px);
+        top: 190px;
+    }
+
+    .article-img {
+        height: 72px;
+        width: 72px;
+    }
+
+    .resources-open-img {
+        height: 580px;
+    }
+}

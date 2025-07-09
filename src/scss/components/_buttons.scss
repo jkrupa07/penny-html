@@ -9,8 +9,7 @@ button,
 
 .btnA {
     height: 55px;
-    padding-left: 46px;
-    padding-right: 46px;
+    width: 180px;
 
     &.bg-212121-btn {
         background-color: $color-212121;
@@ -24,17 +23,14 @@ button,
 
     &:hover {
         .btn-arrow {
-            transform: translateX(6px);
-            opacity: 1;
-            visibility: visible;
+            display: flex !important;
+            transform: translateX(5px);
+           
         }
     }
-
 }
 
 .btn-arrow {
     width: 20px;
-    transform: translateX(-20px);
-    opacity: 0;
-    visibility: hidden;
+    transform: translateX(-5px);
 }
